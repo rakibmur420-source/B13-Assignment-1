@@ -23,7 +23,7 @@ nav{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    background-color: #6030b8;
+    background-color: #FFFFFF;
 }
 
 nav .menu{
@@ -177,7 +177,62 @@ section .banner .bottom .btnn2{
     color: #FFFFFF;
     border: none;
 }
+#nodes{
+    width: 1600px;
+    height: 448px;
+    border: 1px solid rgb(9, 19, 211);
+    //background-color: #FFFFFF;
+}
+ #nodes .section-heading{
+    
+     margin: 0 auto;
+    text-align: center;
+}
+#nodes .section-heading h2{
+    font-size: bold;
+    font-size: 48px;
+    margin: 0 auto;
+    text-align: center;
+    color: #001931;
+}
+#nodes .section-heading p{
+    color: #627382;
+}
+#nodes .nodes-box {
+    display: flex;
+    gap: 24px;
+    width: 1360px;
+    height: 300px;
+     margin: 0 auto;
+    text-align: center;
 
+}
+#nodes .nodes-box .nodes-card{
+    color: #30B868;
+    padding: 70px 24px;
+    border: 1px solid red;
+    max-width: 322px;
+    box-shadow: 0 6px 50px 0 #000000;
+     margin: 0 auto;
+    text-align: center;
+
+}
+.nodes-card img{
+    max-width: 32px;
+    margin-bottom: 30px;
+}
+.nodes-card h3{
+    font-size: 24px;
+    color: #001931;
+    margin-bottom: 16px;
+
+}
+nodes-card p{
+    color: #627382;
+    font-size: 16px;
+    line-height: 20px;
+
+}
 
 
 
