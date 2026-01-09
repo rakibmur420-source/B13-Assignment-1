@@ -63,23 +63,26 @@ border: none;
 
 }
 
-section{
-    border: 1px solid red;
+section .banner{
     background-image: url(../assets/hero-bg.png);
     width: 1600px;
     height: 674px;
     background-repeat: no-repeat;
 
 }
-section .banner{
-    border: 1px solid greenyellow;
+section .bannerall{
     width: 1360px;
     height: 379px;
     margin: 115px auto 180px;
 
 }
+section .bannera{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 section .banner .top{
-    border: 1px solid blue;
     width: 1360px;
     height: 295px;
    padding-bottom: 85px;
@@ -160,7 +163,6 @@ section .banner .bottom .btnn{
 section .banner .bottom .btnn2{
     border-radius:  5px;    
     background: none;
-    border: 1px solid red;
     width: 300px;
     height: 50px;
     display: flex;
@@ -176,12 +178,12 @@ section .banner .bottom .btnn2{
     line-height: 19px;
     color: #FFFFFF;
     border: none;
+    border: 1px solid;
 }
 #nodes{
     width: 1600px;
     height: 448px;
-    border: 1px solid rgb(9, 19, 211);
-    //background-color: #FFFFFF;
+    
 }
  #nodes .section-heading{
     
@@ -210,7 +212,6 @@ section .banner .bottom .btnn2{
 #nodes .nodes-box .nodes-card{
     color: #30B868;
     padding: 70px 24px;
-    border: 1px solid red;
     max-width: 322px;
     box-shadow: 0 6px 50px 0 #000000;
      margin: 0 auto;
@@ -233,6 +234,107 @@ nodes-card p{
     line-height: 20px;
 
 }
+#brain{
+    width: 1600px;
+    height: 840px;
+    
+}
+#brain .brain-content{
+    width: 1360px;
+    height: 600px;
+    margin: auto;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+#brain .brain-content .image img{
+    width: 500px;
+    height: 500px;
+    
+}
+#brain .brain-content .brain-text{
+    width: 600px;
+    height: 400px;
+    margin: auto;
+}
+#brain .brain-content .brain-text .brain-top h4{
+    color: #30B868;
+    margin-bottom: 10px;
+}
+#brain .brain-content .brain-text .brain-top h1{
+    color: #001931;
+    margin-bottom: 10px;
+}
+#brain .brain-content .brain-text .brain-top p{
+    color: #627382;
+    margin-bottom: 25px;
+}
+#brain .brain-content .brain-text .brain-down{
+    align-items: center;
+    justify-content: center;
+}
+#brain .brain-content .brain-text .brain-down p{
+    margin-bottom: 6px;
+
+}
+#brain .brain-content .brain-text .brain-down p img{
+    width: 15px;
+    height: 15px;
+}
+#clear{
+   
+    width: 1600px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+}
+#clear .clearinfo{
+   
+    width: 1360px;
+    height: 385px;
+    margin: 0 auto;
+    background-color: rgba(247, 246, 242, 1);
+}
+#clear .clearinfo .info-top{
+   
+     width: 1280;
+     height: 225px;
+     margin: 80px 40px 190px;
+     
+}
+#clear .clearinfo .info-top h2{
+    color: #001931;
+    font-size: 40px;
+    font-style: Bold;
+    text-align: center;
+    margin-bottom: 7px;
+}
+#clear .clearinfo .info-top p{
+    color: #627382;
+    font-size: 16px;
+    font-style:normal;
+    text-align: center;
+    margin-bottom: 30px;
+}
+#clear .clearinfo .info-top button{
+    display: flex;
+    width: 150px;
+    height: 40px;
+    gap: 16px;
+    flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   margin: auto;
+   margin-bottom: 10px;
+   color: #FFFFFF;
+   background-color: #30B868;
+   border-radius: 5px;
+}
+#clear .clearinfo .info-down{
+    
+}
+
 
 
 
