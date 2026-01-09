@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+
 .font-open-sans> {
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
@@ -22,7 +23,7 @@ nav{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-
+    background-color: #6030b8;
 }
 
 nav .menu{
@@ -61,7 +62,122 @@ border: none;
 
 
 }
-/* nav .button{
+
+section{
+    border: 1px solid red;
+    background-image: url(../assets/hero-bg.png);
+    width: 1600px;
+    height: 674px;
+    background-repeat: no-repeat;
+
+}
+section .banner{
+    border: 1px solid greenyellow;
+    width: 1360px;
+    height: 379px;
+    margin: 115px auto 180px;
+
+}
+section .banner .top{
+    border: 1px solid blue;
+    width: 1360px;
+    height: 295px;
+   padding-bottom: 85px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   margin-bottom: 15px;
+
+}
+section .banner .top .btn{
+    color: #30B868;
+    max-width: 230px;
+    height: 35px;
+    padding: 8px 12px ;
+    gap: 7px;
+    border-radius: 1000px;
+    background-color: #FFFFFF;
+    margin: auto;
+    border: none;
+
+}
+
+.color-green{
+    color: #30B868;
+}
+section .banner .top h1{
+    color: white;
+    width: 770px;
+    height: 170px;
+    font-style: Bold;
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 84px;
+    margin: 0 auto;
+    text-align: center;
+}
+section .banner .top p{
+    color: #FFFFFF;
+    display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+section .banner .bottom{
+    display: flex;
+    width: 400px;
+    height: 52px;
+    gap: 16px;
+    flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   margin: auto;
+    
+
+}
+
+section .banner .bottom .btnn{
+    border-radius:  5px;    
+    background: #30B868;
+    width: 400px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    padding: 16px 12px ;
+    text-decoration: none;
     list-style-type: none;
-    border: 5px;
-} */
+    font-weight: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    color: #FFFFFF;
+    border: none;
+    
+}
+section .banner .bottom .btnn2{
+    border-radius:  5px;    
+    background: none;
+    border: 1px solid red;
+    width: 300px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    padding: 16px 12px ;
+    text-decoration: none;
+    list-style-type: none;
+    font-weight: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    color: #FFFFFF;
+    border: none;
+}
+
+
+
+
