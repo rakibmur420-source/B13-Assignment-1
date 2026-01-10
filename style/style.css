@@ -6,7 +6,7 @@
 
 
 .font-open-sans> {
-  font-family: "Open Sans", sans-serif;
+ font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
   
 }
@@ -24,17 +24,20 @@ nav{
     justify-content: space-between;
     align-items: center;
     background-color: #FFFFFF;
-   
+    border: 5px solid red;
 }
 
 nav .menu{
+    border: 5px solid red;
     display: flex;
-    justify-content: space-between;
+    justify-content:center;
     align-items: center;
     list-style-type: none;
     gap: 32px;
+    margin: auto;
 }
 nav .menu a{
+    
     font-style: Medium;
     font-size: 16px;
     font-weight: 500;
@@ -42,25 +45,32 @@ nav .menu a{
     text-decoration: none;
     color: #000000;
 }
+nav .logo{
+    margin: 0 ;
+    width: 140px;
+    height: 60px;
+    
+}
 nav .button {
-border-radius:  5px;    
-background: #30B868;
-width: 165px;
-height: 45px;
-display: flex;
-flex-direction: row;
-justify-content: space-between;
-align-items: center;
-gap: 10px;
-padding: 12px 16px ;
-text-decoration: none;
-list-style-type: none;
-font-weight: 16px;
-font-weight: 600;
-line-height: 19px;
-color: white;
-border: none;
-cursor: pointer ;
+    margin-right: 3px;
+    border-radius:  5px;    
+    background: #30B868;
+    width: 165px;
+    height: 45px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    padding: 12px 10px ;
+    text-decoration: none;
+    list-style-type: none;
+    font-weight: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    color: white;
+    border: none;
+    cursor: pointer ;
 
 }
 
@@ -111,7 +121,7 @@ section .banner .top .btn{
     margin: auto;
     border: none;
     cursor: pointer;
-
+    margin-bottom: 15px;
 }
 section .banner .top .btn img{
     width: 15px;
@@ -293,6 +303,7 @@ section .banner .bottom .btnn2{
 #brain .brain-content .brain-text .brain-top h1{
     color: #001931;
     margin-bottom: 10px;
+    font-size: 45px;
 }
 #brain .brain-content .brain-text .brain-top p{
     color: #627382;
@@ -332,7 +343,7 @@ section .banner .bottom .btnn2{
 }
 #clear .clearinfo .info-top h2{
     color: #001931;
-    font-size: 40px;
+    font-size: 43px;
     font-style: Bold;
     text-align: center;
     margin-bottom: 7px;
@@ -345,17 +356,17 @@ section .banner .bottom .btnn2{
     margin-bottom: 30px;
 }
 #clear .clearinfo .info-top button{
-    
+    border: #30B868;
     display: flex;
     width: 150px;
     height: 40px;
-    gap: 16px;
+    gap: 5px;
     flex-direction: row;
-   justify-content: center;
+   justify-content: space-between;
    align-items: center;
    margin: auto;
    margin-bottom: 10px;
-   
+   padding: 16px 10px;
    color: #FFFFFF;
    background-color: #30B868;
    border-radius: 5px;
@@ -377,7 +388,7 @@ section .banner .bottom .btnn2{
     
 }
 #footer .foot{
-    
+   
     background-color: #001931;
     width: 1600px;
     height: 340px;
@@ -389,10 +400,10 @@ section .banner .bottom .btnn2{
     padding: 120px 120px 30px 120px;
 }
 #footer .foot .last{
-    justify-content:center;
-    align-items: center;
+    justify-content:space-between;
+    align-items:center;
     
-   
+    margin: 0px 110px 150px 1000px;
   
 }
 
@@ -429,6 +440,9 @@ section .banner .bottom .btnn2{
     align-items: center;
     gap: 10px;
    
+}
+#footer .down .hr{
+    color: #F95555;
 }
 
 
