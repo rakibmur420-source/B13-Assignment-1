@@ -1,5 +1,5 @@
 *{
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
     box-sizing: border-box;
 }
@@ -24,6 +24,7 @@ nav{
     justify-content: space-between;
     align-items: center;
     background-color: #FFFFFF;
+   
 }
 
 nav .menu{
@@ -59,7 +60,7 @@ font-weight: 600;
 line-height: 19px;
 color: white;
 border: none;
-
+cursor: pointer ;
 
 }
 
@@ -109,6 +110,7 @@ section .banner .top .btn{
     background-color: #FFFFFF;
     margin: auto;
     border: none;
+    cursor: pointer;
 
 }
 section .banner .top .btn img{
@@ -168,6 +170,7 @@ section .banner .bottom .btnn{
     line-height: 19px;
     color: #FFFFFF;
     border: none;
+    cursor: pointer;
     
 }
 section .banner .bottom .btnn2{
@@ -189,6 +192,7 @@ section .banner .bottom .btnn2{
     color: #FFFFFF;
     border: none;
     border: 1px solid;
+    cursor: pointer;
 }
 #nodes{
     width: 100%;
@@ -354,6 +358,7 @@ section .banner .bottom .btnn2{
    color: #FFFFFF;
    background-color: #30B868;
    border-radius: 5px;
+   cursor: pointer;
 }
 
 #section .footer{
