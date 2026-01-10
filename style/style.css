@@ -5,7 +5,7 @@
 }
 
 
-.font-open-sans> {
+.font-open-sans {
  font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
   
@@ -24,17 +24,20 @@ nav{
     justify-content: space-between;
     align-items: center;
     background-color: #FFFFFF;
-    border: 5px solid red;
+   
 }
 
 nav .menu{
-    border: 5px solid red;
+
+    
     display: flex;
     justify-content:center;
     align-items: center;
     list-style-type: none;
     gap: 32px;
-    margin: auto;
+    margin:0 auto;
+    width: 33%;
+    max-width: 400px;
 }
 nav .menu a{
     
@@ -47,15 +50,16 @@ nav .menu a{
 }
 nav .logo{
     margin: 0 ;
-    width: 140px;
     height: 60px;
-    
+    width: 22%;
 }
 nav .button {
+   
     margin-right: 3px;
     border-radius:  5px;    
     background: #30B868;
     width: 165px;
+    
     height: 45px;
     display: flex;
     flex-direction: row;
@@ -136,7 +140,7 @@ section .banner .top h1{
     width: 770px;
     height: 170px;
     font-style: Bold;
-    font-size: 72px;
+    font-size: 70px;
     font-weight: 700;
     line-height: 84px;
     margin: 0 auto;
@@ -216,7 +220,7 @@ section .banner .bottom .btnn2{
 }
 
 #nodes .section-heading h2{
-    font-size: 48px;
+    font-size: 50px;
     color: #001931;
     margin-bottom: 16px;
 }
@@ -238,6 +242,7 @@ section .banner .bottom .btnn2{
     max-width: 322px;
     box-shadow: 0 6px 50px #00000010;
     background-color: #ffffff;
+    cursor: pointer;
 }
 
 #nodes .nodes-card .logo-circle{
@@ -303,7 +308,7 @@ section .banner .bottom .btnn2{
 #brain .brain-content .brain-text .brain-top h1{
     color: #001931;
     margin-bottom: 10px;
-    font-size: 45px;
+    font-size: 50px;
 }
 #brain .brain-content .brain-text .brain-top p{
     color: #627382;
@@ -343,7 +348,7 @@ section .banner .bottom .btnn2{
 }
 #clear .clearinfo .info-top h2{
     color: #001931;
-    font-size: 43px;
+    font-size: 48px;
     font-style: Bold;
     text-align: center;
     margin-bottom: 7px;
@@ -419,13 +424,17 @@ section .banner .bottom .btnn2{
     color: #FFFFFF;
     background-color: #001931;
     width: 1600px;
-    height: 55px;
+    height: 110px;
     display: flex;
     flex-direction: column;
-    justify-content:first baseline;
+    justify-content:center;
     align-items:center;
+    margin: 0 auto;
     
-    
+}
+#footer .down p{
+   
+    margin: auto;
 }
  #footer .foot .last .logo-circle{
     width: 20px;
@@ -441,10 +450,12 @@ section .banner .bottom .btnn2{
     gap: 10px;
    
 }
-#footer .down .hr{
-    color: #F95555;
+.line{
+    height: 1px;
+    margin: auto;
+    background-color: #ffffff24;
+    width: 95%;
 }
-
 
 
 
