@@ -355,10 +355,14 @@ section .banner .bottom .btnn2{
    align-items: center;
    margin: auto;
    margin-bottom: 10px;
+   
    color: #FFFFFF;
    background-color: #30B868;
    border-radius: 5px;
    cursor: pointer;
+}
+#clear .clearinfo .info-top button img{
+    width: 20px;
 }
 
 #section .footer{
@@ -385,8 +389,9 @@ section .banner .bottom .btnn2{
     padding: 120px 120px 30px 120px;
 }
 #footer .foot .last{
-    justify-content: center;
+    justify-content:center;
     align-items: center;
+    
    
   
 }
