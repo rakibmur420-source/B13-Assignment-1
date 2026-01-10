@@ -71,28 +71,34 @@ section .banner{
 
 }
 section .bannerall{
+   
     width: 1360px;
     height: 379px;
     margin: 115px auto 180px;
 
 }
 section .bannera{
+    
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 section .banner .top{
+    
     width: 1360px;
     height: 295px;
-   padding-bottom: 85px;
+   padding: 250px 120px 180px;
    display: flex;
    flex-direction: column;
    justify-content: center;
    align-items: center;
+   margin: auto;
    margin-bottom: 15px;
+   
 
 }
+
 section .banner .top .btn{
     color: #30B868;
     max-width: 230px;
@@ -104,6 +110,10 @@ section .banner .top .btn{
     margin: auto;
     border: none;
 
+}
+section .banner .top .btn img{
+    width: 15px;
+    height: 15px;
 }
 
 .color-green{
@@ -183,6 +193,7 @@ section .banner .bottom .btnn2{
 #nodes{
     width: 1600px;
     height: 448px;
+    background-color: #618d77d4;
     
 }
  #nodes .section-heading{
@@ -213,11 +224,29 @@ section .banner .bottom .btnn2{
     color: #30B868;
     padding: 70px 24px;
     max-width: 322px;
-    box-shadow: 0 6px 50px 0 #000000;
+    box-shadow: 0 6px 50px 0 #00000010;
      margin: 0 auto;
     text-align: center;
 
 }
+#nodes .nodes-box .nodes-card.logo-circle{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #cc1212;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+   
+}
+#nodes .nodes-box .nodes-card.logo-circle img{
+    width: 26px;
+    height: 26px;
+    object-fit: contain;
+}
+
 .nodes-card img{
     max-width: 32px;
     margin-bottom: 30px;
@@ -297,7 +326,6 @@ nodes-card p{
     background-color: rgba(247, 246, 242, 1);
 }
 #clear .clearinfo .info-top{
-   
      width: 1280;
      height: 225px;
      margin: 80px 40px 190px;
@@ -318,6 +346,7 @@ nodes-card p{
     margin-bottom: 30px;
 }
 #clear .clearinfo .info-top button{
+    
     display: flex;
     width: 150px;
     height: 40px;
@@ -334,6 +363,67 @@ nodes-card p{
 #clear .clearinfo .info-down{
     
 }
+#section .footer{
+    color: #001931;
+    background-color: #001931;;
+    width: 1600px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    
+}
+#footer .foot{
+    
+    background-color: #001931;
+    width: 1600px;
+    height: 340px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 80px;
+    padding: 120px 120px 30px 120px;
+}
+#footer .foot .last{
+    justify-content: center;
+    align-items: center;
+  
+}
+
+#footer .foot .last h5{
+    color: #FFFFFF;
+    margin-right: 70px;
+    display: flex;
+    flex-direction: ;
+    
+}
+#footer .down{
+    
+    color: #FFFFFF;
+    background-color: #001931;
+    width: 1600px;
+    height: 55px;
+    display: flex;
+    flex-direction: column;
+    justify-content:first baseline;
+    align-items:center;
+    
+    
+}
+ #footer .foot .last .logo-circle{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+   
+}
+
 
 
 
