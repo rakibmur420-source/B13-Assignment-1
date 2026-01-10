@@ -191,78 +191,73 @@ section .banner .bottom .btnn2{
     border: 1px solid;
 }
 #nodes{
-    width: 1600px;
-    height: 448px;
-    background-color: #618d77d4;
-    
+    width: 100%;
+    padding: 120px 0;
+    background-color: #FFFFFF;
 }
- #nodes .section-heading{
-    
-     margin: 0 auto;
+
+#nodes .section-heading{
+    margin: 0 auto 60px;
     text-align: center;
 }
+
 #nodes .section-heading h2{
-    font-size: bold;
     font-size: 48px;
-    margin: 0 auto;
-    text-align: center;
     color: #001931;
+    margin-bottom: 16px;
 }
+
 #nodes .section-heading p{
     color: #627382;
 }
-#nodes .nodes-box {
+
+#nodes .nodes-box{
     display: flex;
     gap: 24px;
-    width: 1360px;
-    height: 300px;
-     margin: 0 auto;
+    max-width: 1360px;
+    margin: 0 auto;
     text-align: center;
-
 }
-#nodes .nodes-box .nodes-card{
-    color: #30B868;
+
+#nodes .nodes-card{
     padding: 70px 24px;
     max-width: 322px;
-    box-shadow: 0 6px 50px 0 #00000010;
-     margin: 0 auto;
-    text-align: center;
-
+    box-shadow: 0 6px 50px #00000010;
+    background-color: #ffffff;
 }
-#nodes .nodes-box .nodes-card.logo-circle{
+
+#nodes .nodes-card .logo-circle{
     width: 50px;
     height: 50px;
+
+    background-color: #F95555;
     border-radius: 50%;
-    background-color: #cc1212;
+
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 10px;
-    margin-bottom: 20px;
-   
+
+    margin: 0 auto 20px;
 }
-#nodes .nodes-box .nodes-card.logo-circle img{
+
+#nodes .nodes-card .logo-circle img{
     width: 26px;
     height: 26px;
     object-fit: contain;
 }
 
-.nodes-card img{
-    max-width: 32px;
-    margin-bottom: 30px;
-}
-.nodes-card h3{
+#nodes .nodes-card h3{
     font-size: 24px;
     color: #001931;
     margin-bottom: 16px;
-
 }
-nodes-card p{
+
+#nodes .nodes-card p{
     color: #627382;
     font-size: 16px;
     line-height: 20px;
-
 }
+
 #brain{
     width: 1600px;
     height: 840px;
@@ -360,9 +355,7 @@ nodes-card p{
    background-color: #30B868;
    border-radius: 5px;
 }
-#clear .clearinfo .info-down{
-    
-}
+
 #section .footer{
     color: #001931;
     background-color: #001931;;
@@ -389,14 +382,15 @@ nodes-card p{
 #footer .foot .last{
     justify-content: center;
     align-items: center;
+   
   
 }
 
 #footer .foot .last h5{
     color: #FFFFFF;
-    margin-right: 70px;
+   
     display: flex;
-    flex-direction: ;
+    
     
 }
 #footer .down{
@@ -413,11 +407,14 @@ nodes-card p{
     
 }
  #footer .foot .last .logo-circle{
-    width: 30px;
-    height: 30px;
+    width: 20px;
+    height: 20px;
     border-radius: 50%;
     background-color: #FFFFFF;
-    display: flex;
+   
+}
+.logo-round{
+     display: flex;
     justify-content: center;
     align-items: center;
     gap: 10px;
