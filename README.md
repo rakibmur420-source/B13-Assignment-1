@@ -22,8 +22,9 @@ This project does not use external libraries or frameworks.
 Clone the repository: git clone https://github.com/your-username/B13-Assignment-1.git
 
 
-Relevant Links
+## Relevant Links
  Live link: https://rakibmur420-source.github.io/B13-Assignment-1/
+ git repo link: https://github.com/rakibmur420-source?tab=repositories
 
 
 ### 🔹 Screenshort 
